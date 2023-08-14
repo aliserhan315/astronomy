@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;300;400;500;600");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+*{
+    box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+   background-color: #031529;
+    font-weight: 700;
+    color: #fff;
+    font-size: 22px;
+    font-family: "be vietnam";
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(4,400px 1fr 1fr 1fr   );
+    margin-top: 20px;
+    grid-gap: 20px;
+
+}
+
+
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+li:nth-child(1){
+    margin-right: 200px
+
+}
+li:nth-child(2){
+    margin-left: 550px
+}
+.nav-link{
+    text-align: center;
+    padding: 2px 3px;
+    padding-top: 2px;
+    border-radius: 15px;
+}
+.nav-link:not(:first-of-type)
+{
+    background-color: #17375b;
+    transition: transform .3s;
+}
+.nav-link:not(:first-of-type):hover{
+    background-color: #4475e2;
+    cursor: pointer;
+    transform: translateY(5px);
+}
+.hero-section{
+    display: grid;
+    grid-template-columns: repeat(2, 700px 1fr);
+    align-items: center;
+   
+}
+.hero-section-content{
+    margin-left: 60px;
+    margin-bottom: 100px;
+
+}
+.hero-section-content h3{
+    margin-top: -35px;
+    color: #4475e2;
+}
+.hero-section-content hr{
+    width: 130px;
+    margin-left: 0px;
+    margin-top: -10px;
+
+}
+.hero-section-content .btn{
+    border: none;
+    outline: none;
+    padding: 15px 45px;
+    background: transparent;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: transform .3s;
+
+}
+.hero-section-content .btn:hover{
+    transform: translateY(5px);
+
+}
+.hero-section-content .btn1{
+    background: #17375b;
+
+}
+.hero-section-content .btn1:hover{
+    background-color: #4475e2;
+}
+.hero-section-content .btn2{
+    border: 2px solid #4475e2;
+    margin-left: 200px; 
+    margin-bottom: 7px;  
+    color: #4475e2;
+}
+.hero-section-content .btn2:hover{
+    background-color: #4475e2;
+    color: #fff;
+}
+.social-media{
+    transform: translateY(80px) translateX(30px) ;
+}
+.social-media i{
+    font-size: 35px;
+    border: 2px solid #4475e2;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 50%;
+}
+.social-media i:hover{
+    background: #4475e2;
+    color: #fff;
+    transform: translateY(5px);
+
+}
+.subnav-section {
+    margin-top:  20px;
+    text-align: center;
+
+}
+.light-section{
+    text-align: left;
+    margin-left: 170px;
+}
+.object-section{
+    text-align: left;
+    position: relative;
+    left: 700px;
+    bottom: 375px;
+}
+
+footer {
+    border-top: 2px solid rgba(51, 51, 51, .2);
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+}
+
+.footer-notes {
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    border-bottom: 1px solid rgba(51, 51, 51, .2);
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+#social-media {
+    font-size: 14px;
+    line-height: 20px;
+    color: #6b6b6b;
+    border-bottom: 1px solid rgba(51, 51, 51, .2);
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.media-images {
+    margin: 0 7px;
+    max-width: 50px;
+}
+
+.media-images:hover {
+    background-color: #123068;
+    border: 0px hidden #0f4a7a;
+    border-radius: 100%;
+    transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.Astro-img{
+    margin-top: -400px;
+}
+#preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000000   url(../images/Twirl-1.gif) no-repeat center center;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    background-size: 20%;
+  
+}
+#logo{
+    position: absolute;
+    top: 25px;
+    left: 1px;
+}

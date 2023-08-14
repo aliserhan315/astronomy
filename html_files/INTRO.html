@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>INTRODUCTION</title>
+	<link rel="favorite icon" type="image/jpeg" href="fav icon.jpeg">
+    <link rel="stylesheet" href="../cssfiles/sample1.css">
+	<link rel="icon" href="Spaceship Clipart 30485.png" type="Images/image/icon type">
+  </head>
+  <body>
+
+    <header>
+		<img src="../Images/logo1.png" id="logo" alt="" width="45px" height="35px"  />
+      <a href="topics.html" class="brand">ASTRO BELTS</a>
+    </header>
+
+    <main class="home">
+      <video class="video-slide active" src="../Images/vd1.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="../Images/vd2.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="../Images/Space3.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="../Images/Energy Field 1.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="../Images/space++.mp4" autoplay muted loop></video>
+	  <video class="video-slide" src="../Images/Earth.mp4" autoplay muted loop></video>
+      <div class="content active">
+        <h1>ASTRONOMY<br></h1>
+        <p> Astronomy  is a natural science that studies celestial objects and phenomena. It uses mathematics, physics, and chemistry in order to explain their origin and evolution. Objects of interest include planets, moons, stars, nebulae, galaxies, and comets. Relevant phenomena include supernova explosions, gamma ray bursts, quasars, blazars, pulsars, and cosmic microwave background radiation. More generally, astronomy studies everything that originates beyond Earth's atmosphere. Cosmology is a branch of astronomy that studies the universe as a whole.
+			Astronomy is one of the oldest natural sciences. The early civilizations in recorded history made methodical observations of the night sky. These include the Babylonians, Greeks, Indians, Egyptians, Chinese, Maya, and many ancient indigenous peoples of the Americas. In the past, astronomy included disciplines as diverse as astrometry, celestial navigation, observational astronomy, and the making of calendars. Nowadays, professional astronomy is often said to be the same as astrophysics.
+
+		</p>
+      </div>
+      <div class="content">
+        <h1>HOW IT ALL<br><span>BEGAN </span></h1>
+        <p>When it comes to our cosmic origins, a number of theories have been advanced throughout the course of history. Literally every culture that’s ever existed has had its own mythological tradition, which naturally included a creation story. With the birth of the scientific tradition, scientists began to understand the Universe in terms of physical laws that could be tested and proven.
+			With the dawn of the Space Age, scientists began testing cosmological theories in terms of observable phenomena. From all of this, a number of theories emerged by the latter half of the 20th century that attempted to explain how all matter and the physical laws governing it came to be.<br>some of those theories are:<br><h3>BIG BANG THEORY &nbsp; BIG BOUNCE &nbsp; STEADY STATE UNIVERSE</h3><BR>those theories are declared in the next slides.
+			</p>
+      </div>
+      <div class="content">
+        <h1>BIG BANG <br><span>THEORY</span></h1>
+        <p>Around 13.7 billion years ago, everything in the entire universe was condensed in an infinitesimally small singularity, a point of infinite denseness and heat. 
+
+Suddenly, an explosive expansion began, ballooning our universe outwards faster than the speed of light. This was a period of cosmic inflation that lasted mere fractions of a second — about 10^-32 of a second, according to physicist Alan Guth’s 1980 theory that changed the way we think about the Big Bang forever. 
+
+When cosmic inflation came to a sudden and still-mysterious end, the more classic descriptions of the Big Bang took hold. A flood of matter and radiation, known as “reheating,” began populating our universe with the stuff we know today: particles, atoms, the stuff that would become stars and galaxies and so on.<br>This all happened within just the first second after the universe began, when the temperature of everything was still insanely hot, at about 10 billion degrees Fahrenheit (5.5 billion Celsius), according to NASA. The cosmos now contained a vast array of fundamental particles such as neutrons, electrons and protons — the raw materials that would become the building blocks for everything that exists today.</p>
+      </div>
+      <div class="content">
+        <h1>STEADY STATE<br><span>THEORY</span></h1>
+		<p>The Steady-State theory doesn't have a big support because it  states that the density of matter in the expanding universe remains unchanged over time because of the continuous creation of matter. In other words, the observable Universe essentially remains the same regardless of time or place. This places it in sharp contrast to the theory that the majority of matter was created in a single event (the Big Bang) and has been expanding ever since.
+			this sort of universe would be infinite, without a beginning or an end.</p>
+      </div>
+	  <div class="content">
+        <h1>BIG BOUNCE<br><span>THEORY</SPAN></h1>
+        <p>COMES AFTER THE CREATION OF THE BIGBANG THEORY Better known as the Big Bounce theory agrees with the accelerated expansion of the universe proposed by the Big Bang theory. However, the Big Bounce states that the universe has been subjected to a state of expansion and compression, one after another recurrently, bouncing each time it contracts to a certain volume.
+		</p>
+      </div>
+	   <div class="content">
+        <h1>MERLEY A STIMULATION</h1>
+        <p>Some insinuations found in string theory and quantum gravity persuasively suggest the universe is not at all as it seems. It is possible that the entire universe is just a flat hologram projected onto a spherical surface. Others suggest it could be an entirely digital simulation running in an enormous computer.<br>Even though the Big Bang theory holds the most generally accepted explanation for of the development of the universe, one must also realize that nothing in science is forever and what was once purely fiction is common knowledge nowadays. Who knows what the future holds?</p>
+      </div>
+      
+       
+      <div class="slider-navigation">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+		<div class="nav-btn"></div>
+      </div>
+    </main>
+
+    <script type="text/javascript">
+ 
+
+    //Javacript for video slider navigation
+    const btns = document.querySelectorAll(".nav-btn");
+    const slides = document.querySelectorAll(".video-slide");
+    const contents = document.querySelectorAll(".content");
+
+    var sliderNav = function(manual){
+      btns.forEach((btn) => {
+        btn.classList.remove("active");
+      });
+
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+
+      contents.forEach((content) => {
+        content.classList.remove("active");
+      });
+
+      btns[manual].classList.add("active");
+      slides[manual].classList.add("active");
+      contents[manual].classList.add("active");
+    }
+
+    btns.forEach((btn, i) => {
+      btn.addEventListener("click", () => {
+        sliderNav(i);
+      });
+    });
+	
+    </script>
+	
+	<footer>
+    <div class="footer-notes">Astro Belts video content contains copyrighted material and should not be downloaded or used outside of this website.</div>
+    <div class="footer-notes">This product is based upon work supported by NASA under award numbers NNX16AC65A and NNX15AB26G and contracts NAS5-26555 and NAS5-03127. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the website team members</div>
+    <div class="footer-notes">Created by Astro Belts Team |© 2022-2023 All rights reserved.</div>
+    <div id="social-media">                
+        <a href=""><img class="media-images" src="../Images/facebook.png" alt="facebook"></a>
+        <a href=""><img class="media-images" src="../Images/instagram.png" alt="instagram"></a>
+        <a href=""><img class="media-images" src="../Images/twitter.png" alt="twitter"></a>
+        <a href=""><img class="media-images" src="../Images/youtube.png" alt="youtube"></a>
+        <a href=""><img class="media-images" src="../Images/pinterest.png" alt="pinterest"></a>
+    </div>
+
+</footer>
+  </body>
+</html>
+      

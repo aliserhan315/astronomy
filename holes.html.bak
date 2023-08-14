@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang ="eng">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=Neo, initial-scale=1.0">
+<title>HOLES</title>
+<link rel = "stylesheet" href = "holes.css">
+<body>
+<div class="container">
+    <div class="card">
+        <div class="image">
+            <img src="absorbing.jpeg" alt="absorbing" class="pic">
+        </div>
+        <div class="info">
+            
+                <p class="text1">Black holes</p>
+                <p class="card_text">Black hole formed at the beginning of the universe or by the gravitational collapse of a star exploding as a supernova
+				.Some black holes are a result of dying stars.<br> <br><strong>How further is the distance between the earth and the closest black hole?</strong><br>Scientists have discovered one of the smallest black holes on record – and the closest one to Earth found to date.<br> 
+                 <img src="unicorn.jpg"height="150" width="150" alt="unicorn"><br>
+                   Researchers have named it “The Unicorn:(a small black hole orbits with a red giant star),<br>
+                  in part because it is, so far, one of a kin<br>
+                          The Unicorn is about three times the mass of our sun – tiny for a black hole.<br>
+                         Very few black holes of this mass have been found in the universe. This black hole is<strong><i>1,500 light years away from Earth</strong></i></p>
+            
+            <div class="card_footer">
+                <a href="#"title=""class="card_btn"></a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img src="whitehole.jpeg" alt="white hole" class="pic">
+        </div>
+        <div class="info">
+            <div class="content">
+                <p class="text1">White holes</p>
+                <p class="card_text">white holes are the theoretical opposites of black holes.
+                                  They are theorized to exist based on the very same math and general relativity concepts as black holes.<br>
+white holes are the theoretical opposites of black holes. They are theorized to exist based on the very same math and general relativity concepts as black holes,
+ although we have yet to identify a stable example in the universe. If you were to observe a white hole from a distance, 
+ it would look very much like a black hole functioning in reverse, with light and matter slowly spewing outwards from what would otherwise look like a black hole. 
+ It is theorized that nothing is able to penetrate past a white hole’s event horizon, just as nothing can escape from within a black hole’s event horizon.
+ The great mystery of such a white hole (as presently theorized) is that nothing could ever impact the contents of the white hole</p>
+            </div>
+            <div class="card_footer">
+                <a href="#"title=""class="card_btn"></a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img src="worm hole.jpg" alt="worm hole" class="pic">
+        </div>
+        <div class="info">
+            <div class="content">
+                <p class="text1">Worm holes</p>
+                <p class="card_text">A wormhole is a speculative structure linking disparate points in spacetime.
+                                 A wormhole can be visualized as a tunnel with two ends at separate points in spacetime.<br>
+								 A wormhole (or Einstein–Rosen bridge or Einstein–Rosen wormhole) is a speculative structure linking disparate points in spacetime. 
+A wormhole can be visualized as a tunnel with two ends at separate points in spacetime (i.e., different locations, different points in time, or both).
+ Theoretically, a wormhole might connect extremely long distances such as a billion light years, or short distances such as a few meters, or different points in time, or even different universes.[2]
+For a simplified notion of a wormhole, space can be visualized as a two-dimensional surface. 
+In this case, a wormhole would appear as a hole in that surface, lead into a 3D tube (the inside surface of a cylinder), 
+then re-emerge at another location on the 2D surface with a hole similar to the entrance. An actual wormhole would be analogous to this, 
+but with the spatial dimensions raised by one. Another way to imagine wormholes is to take a sheet of paper and draw two somewhat distant points on one side of the paper. 
+The sheet of paper represents a plane in the spacetime continuum, and the two points represent a distance to be traveled, 
+but theoretically a wormhole could connect these two points by folding that plane (⁠i.e. the paper) so the points are touching. 
+In this way it would be much easier to traverse the distance since the two points are now touching</p>
+            </div>
+            <div class="card_footer">
+                <a href="#"title=""class="card_btn"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
+
+</body>
+
+</html>

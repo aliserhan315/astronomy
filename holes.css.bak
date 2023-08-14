@@ -1,0 +1,143 @@
+
+header{
+	color : blue ;
+	text-align : center ;
+font-size : 5em ;	
+}
+
+h1{
+	color : green;
+}
+h2{
+	
+	color : gray;
+}
+h3{
+	
+	color : orange;
+}
+h4{
+	
+	color : yellow;
+}
+
+.line{
+  text-decoration: underline;
+  color :red;
+}
+*{
+	margin:0px;
+	padding : 0;
+	font-family: sans-serif;
+}
+body{
+
+	font-family: fantasy;
+	font-style:bold;
+	color:white;
+	background-image : url(hole.jpeg);
+	background-repeat: no-repeat;
+ background-size: cover;
+}
+.moreText{
+	display:none;
+}
+.container{
+	color:black;
+	display : flex;
+	justify-content:center;
+}
+.pic{
+	width : 250px;
+	height :350 px;
+	position :relative;
+	object-fit:cover;
+}
+.card{
+	display:inline-flex;
+	width: 250px;
+	margin:20px;
+	border:2px solid;
+	border-radius: 10px , 10px , 10px , 10px;
+	background: white;
+	box-shadow: 5px , 10px , 20px , #040f74;
+	padding:25px 20px;
+	flex-direction:column;
+}
+.card:hover{
+	transform:scale(0.9);
+}
+
+.info{
+	padding:20px 0;
+	background: rbg(255,255,255);
+	height : 207 px;
+	border-radius: 0px  0px  10px  10px;
+}
+.text1{
+	font-weight:500;
+	text-align:center;
+	font-size:21px;
+	color:blue;
+	margin-bottom:25px;
+}
+.card_text{
+	font-weight:normal;
+	margin-bottom:25px;
+	overflow:hidden;
+	max-height:100px;
+}
+.card_footer{
+	margin:10px , 0;
+	text-align:center;
+	color:black;
+}
+.card_btn{
+	display:inline-flex;
+	height:40px;
+	font-size:17px;
+	transition: .3s ;
+	background:#fff;
+	outline:none;
+	color:black;
+
+	border:1px solid #ff83d2;
+	border-radius:22.5px;
+	padding:0 25px;
+	align-items:center;
+	justify-content:center;
+	font-weight:normal;
+	text-decoration:none;
+}
+.card_btn:after{
+	content:'Read more';
+}
+.card_btn:hover{
+	background:blue;
+	color:white;
+}
+.card.is-active .card_text{
+	max-height:none;
+}
+.card.is-active .card_btn:after{
+	content:"Read less";
+}
+.card.is-active .card_btn{
+	background:blue;
+	color:white;
+}
+
+
+/* responsive */
+ @media(max-width:1000px)
+{
+	.container
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+

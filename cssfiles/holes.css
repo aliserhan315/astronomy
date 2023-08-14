@@ -1,0 +1,208 @@
+*{
+	overflow-x:hidden;
+}
+header{
+	z-index: 999;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 50px;
+	
+}
+  
+header .brand{
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+h1{
+	color : green;
+}
+h2{
+	
+	color : gray;
+}
+h3{
+	
+	color : orange;
+}
+h4{
+	
+	color : yellow;
+}
+
+.line{
+  text-decoration: underline;
+  color :red;
+}
+*{
+	margin:0px;
+	padding : 0;
+	font-family: sans-serif;
+}
+body{
+
+	font-family: fantasy;
+	font-style:bold;
+	color:white;
+	background-image : url(../Images/hole.jpg);
+	background-repeat: no-repeat;
+ background-size: cover;
+}
+.moreText{
+	display:none;
+}
+.container{
+	color:black;
+	display : flex;
+	justify-content:center;
+	margin-top: 50px
+}
+.pic{
+	width : 250px;
+	height :350 px;
+	position :relative;
+	object-fit:cover;
+}
+.card{
+	display:inline-flex;
+	width: 250px;
+	margin:20px;
+	border:2px solid;
+	border-radius: 10px , 10px , 10px , 10px;
+	background: white;
+	box-shadow: 5px , 10px , 20px , #040f74;
+	padding:25px 20px;
+	flex-direction:column;
+}
+.card:hover{
+	transform:scale(0.9);
+}
+
+.info{
+	padding:20px 0;
+	background: rbg(255,255,255);
+	height : 207 px;
+	border-radius: 0px  0px  10px  10px;
+}
+.text1{
+	font-weight:500;
+	text-align:center;
+	font-size:21px;
+	color:blue;
+	margin-bottom:25px;
+}
+.card_text{
+	margin : 10px  20px;
+	padding: 10px 0px;
+	font-weight:normal;
+	margin-bottom:25px;
+	overflow:hidden;
+	max-height:100px;
+}
+.card_footer{
+	margin:10px , 0;
+	text-align:center;
+	color:black;
+}
+.card_btn{
+	display:inline-flex;
+	height:40px;
+	font-size:17px;
+	transition: .3s ;
+	background:#fff;
+	outline:none;
+	color:black;
+
+	border:1px solid #ff83d2;
+	border-radius:22.5px;
+	padding:0 25px;
+	align-items:center;
+	justify-content:center;
+	font-weight:normal;
+	text-decoration:none;
+}
+.card_btn:after{
+	content:'Read more';
+}
+.card_btn:hover{
+	background:blue;
+	color:white;
+}
+.card.is-active .card_text{
+	max-height:none;
+}
+.card.is-active .card_btn:after{
+	content:"Read less";
+}
+.card.is-active .card_btn{
+	background:blue;
+	color:white;
+}
+
+
+/* responsive */
+ @media(max-width:1000px)
+{
+	.container
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+footer {
+    border-top: 2px solid rgba(51, 51, 51, .2);
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+}
+
+.footer-notes {
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    border-bottom: 1px solid rgba(51, 51, 51, .2);
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+#social-media {
+    font-size: 14px;
+    line-height: 20px;
+    color: #6b6b6b;
+    border-bottom: 1px solid rgba(51, 51, 51, .2);
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.media-images {
+    margin: 0 7px;
+    max-width: 50px;
+}
+
+.media-images:hover {
+    background-color: #123068;
+    border: 0px hidden #0f4a7a;
+    border-radius: 100%;
+    transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#logo{
+    position: absolute;
+    top: 25px;
+    left: 1px;
+}
+
+
